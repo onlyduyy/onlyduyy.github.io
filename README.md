@@ -9,4 +9,5 @@ Mình cũng là thằng cha viết các thứ ở bên [Khu học mở](https://
 - [Cập nhật tháng 08/2024](./bai-viet/cap-nhat-thang-08-2024.md)
 
 ## Các bài đăng linh tinh, 
+- [Tự học Rust các thứ](./bai-viet/rust-howto.md)
 - [Sự hình thành và phát triển của tư tưởng Đông Phương](./bai-viet/tu-tuong-dong-phuong.md)
