@@ -5,9 +5,7 @@
 
 Mình cũng là thằng cha viết các thứ ở bên [Khu học mở](https://daihocmo.github.io/) (Khu tổng hợp rất nhiều thứ liên quan đến tự học và phát triển bản thân, nhiều thứ lắm chắc vậy).
  
-## Cập nhật cho Đại học mở và mình.
-- [Cập nhật tháng 08/2024](./bai-viet/cap-nhat-thang-08-2024.md)
-
-## Các bài đăng linh tinh, 
-- [Tự học Rust các thứ](./bai-viet/rust-howto.md)
-- [Sự hình thành và phát triển của tư tưởng Đông Phương](./bai-viet/tu-tuong-dong-phuong.md)
+## Chuyên mục
+| [Cá nhân](/chuyen-muc/ca-nhan.md) | [Học tập](/chuyen-muc/hoc-tap.md) | [Dự án cộng đồng](/chuyen-muc/du-an-cong-dong.md) |
+| ----------- | ----------- | ------------------- |
+| [Nghệ thuật](/chuyen-muc/nghe-thuat.md) | [Lập trình](/chuyen-muc/lap-trinh.md) | [Linh tinh](/chuyen-muc/linh-tinh.md) |
