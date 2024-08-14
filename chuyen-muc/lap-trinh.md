@@ -1,1 +1,0 @@
-- [05/08/2024 - Tự học Rust các thứ](/bai-viet/rust-howto.md)
