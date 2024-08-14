@@ -6,6 +6,8 @@
 Mình cũng là thằng cha viết các thứ ở bên [Khu học mở](https://daihocmo.github.io/) (Khu tổng hợp rất nhiều thứ liên quan đến tự học và phát triển bản thân, nhiều thứ lắm chắc vậy).
  
 ## Chuyên mục
-| [Cá nhân](/chuyen-muc/ca-nhan.md) | [Học tập](/chuyen-muc/hoc-tap.md) | [Dự án cộng đồng](/chuyen-muc/du-an-cong-dong.md) |
+
+| | | |
 | ----------- | ----------- | ------------------- |
+| [Cá nhân](/chuyen-muc/ca-nhan.md) | [Học tập](/chuyen-muc/hoc-tap.md) | [Dự án cộng đồng](/chuyen-muc/du-an-cong-dong.md) |
 | [Nghệ thuật](/chuyen-muc/nghe-thuat.md) | [Lập trình](/chuyen-muc/lap-trinh.md) | [Linh tinh](/chuyen-muc/linh-tinh.md) |
