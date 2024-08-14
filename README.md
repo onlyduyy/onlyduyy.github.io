@@ -10,9 +10,11 @@ Mình cũng là thằng cha viết các thứ ở bên [Khu học mở](https://
 
 ### Cá nhân
 - [12/08/2024 - Khởi động lại guồng quay học Tiếng Anh](./bai-viet/tieng-anh-thang-08-2024.md)
+
 ### Học tập
 - [16/07/2024 - Sự hình thành và phát triển của tư tưởng Đông Phương](/bai-viet/tu-tuong-dong-phuong.md)
 - [14/08/2024 - Cán mốc 1800 Kanji (Thực ra mục tiêu trên 2000 nhưng mấy Hán Tự không thích học thì xóa gòi)](./bai-viet/hoc-kanji-cap-nhat-08-2024.md)
+
 ### Dự án cộng đồng
 - [03/08/2024 - Cập nhật tháng 08/2024](/bai-viet/cap-nhat-thang-08-2024.md)
 
