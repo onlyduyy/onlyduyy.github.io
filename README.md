@@ -9,10 +9,10 @@ Mình cũng là thằng cha viết các thứ ở bên [Khu học mở](https://
 ## Chuyên mục
 Choose one that makes you curious and then just read it (if you want to).
 
-| =========== | =========== | =========== | =========== |
-| --- | --- | --- | --- |
-|[Cập nhật](./bai-viet/cap-nhat/index.md) | [Học tập](./bai-viet/hoc-tap/index.md) | [Đọc sách](./bai-viet/doc-sach/index.md) | [Suy tưởng](./bai-viet/suy-nghi/index.md) |
-| [Dự án](./bai-viet/du-an/index.md) | [Lập trình](./bai-viet/lap-trinh/index.md) | [Sở thích](/bai-viet/so-thich/index.md) | [Tu luyện](./bai-viet/ren-luyen/index.md) |
+ ※※※※※※※※※ | ※※※※※※※※※ | ※※※※※※※※※ | ※※※※※※※※※ 
+ --- | --- | --- | ---
+[Cập nhật](./bai-viet/cap-nhat/index.md) | [Học tập](./bai-viet/hoc-tap/index.md) | [Đọc sách](./bai-viet/doc-sach/index.md) | [Suy tưởng](./bai-viet/suy-nghi/index.md)
+[Dự án](./bai-viet/du-an/index.md) | [Lập trình](./bai-viet/lap-trinh/index.md) | [Sở thích](/bai-viet/so-thich/index.md) | [Tu luyện](./bai-viet/ren-luyen/index.md)
 
 ## Còn gì khác
 Làm một bữa sáng
