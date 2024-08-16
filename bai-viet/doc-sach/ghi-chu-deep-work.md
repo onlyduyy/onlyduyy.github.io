@@ -83,10 +83,13 @@ _the grand gesture_
 
 whiteboard effect - collaborative form of deep work.
 
+
 ## 4DX Framework
-###
+
+### First
 - for an individual focused on deep work, it’s easy to identify the relevant lead measure: time spent in a state of deep work dedicated toward your wildly important goal. Returning to my example, this insight 
-### 
+
+### Second 
 - Discipline 1: Focus on the wildly important -> individually, focus on ambitious outcomes to pursue with "our" deep work hourse
 - DIscipline 2: Act on lead measures: 
 	- lag measures: things you are trying to improve ultimately.
@@ -96,10 +99,10 @@ whiteboard effect - collaborative form of deep work.
 
 ### Be lazy
 
-
 Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as vitamin D is to the body, and deprived of it we suffer a mental affliction as disfiguring as rickets… it is, paradoxically, necessary to getting any work done.
 
-#### At the end of the workday
+### At the end of the workday
+
 shut down your consideration of work issues: no after-dinner email check or sth like that,
 
 ### UTT - unconcious thought theory?
@@ -121,7 +124,7 @@ When you're done, be done!
 
 Half of the book, take a 10-min break - 05:57 -> 06:08
 
-# Rule #2
+## Rule #2
 Embrace Boredom
 
 from a random guy: " “You cannot consider yourself as fulfilling this daily obligation unless you have stretched to the reaches of your mental capacity.”
@@ -144,42 +147,33 @@ With these rough categorizations established, the strategy works as follows: Sch
 
 WORKING WITH GREAT INTENSITY
 
-## productive meditation.
+### productive meditation.
 - being occupied physically, not mentally: walking or sth
 
 
-## memorization
+### memorization
 - never attempt rote memorization
 - Your mind, in other words, can quickly retain lots of detailed information—if it’s stored in the right way. Ron White’s card memorization technique builds on this insight.
 - Practice this mental exercise of walking through the rooms, and looking at items in each room, in a set order (first step).
-# Rule #3 - Quit social media 
 
 
+## Rule #3 - Quit social media 
 
 The Any-Benefit Approach to Network Tool Selection: You’re justified in using a network tool if you can identify any possible benefit to its use, or anything you might possibly miss out on if you don’t use it.
 
 The Craftsman Approach to Tool Selection: Identify the core factors that determine success and happiness in your professional and personal life. Adopt a tool only if its positive impacts on these factors substantially outweigh its negative impacts.
 
-
-
-## Steps
-
-
+### Steps
 The first step of this strategy is to identify the main high-level goals in both your professional and your personal life.
 High-level goals don't have to be "too" specific.
 
 For example, “do better research” is too general (what does it look like to be “doing better research”?), while “finish paper on broadcast lower bounds in time for upcoming conference submission” is too specific (it’s a onetime outcome). A good activity in this context would be something like: “regularly read and understand the cutting-edge results in my field.”
 
-
-
 Professional Goal: To craft well-written, narrative-driven stories that change the way people understand the world.
-
- 
 
 Key Activities Supporting This Goal:
 
 • Research patiently and deeply.
-
 • Write carefully and with purpose.
 
 
