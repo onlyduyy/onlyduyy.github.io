@@ -7,26 +7,11 @@ duykhanh471
 Mình cũng là thằng cha viết các thứ ở bên [Khu học mở](https://daihocmo.github.io/) (Khu tổng hợp rất nhiều thứ liên quan đến tự học và phát triển bản thân, nhiều thứ lắm chắc vậy).
  
 ## Chuyên mục
+Choose one that makes you curious and then just read it (if you want to).
 
-### Cá nhân
-- [12/08/2024 - Khởi động lại guồng quay học Tiếng Anh](./bai-viet/tieng-anh-thang-08-2024.md)
+[Cập nhật](./bai-viet/cap-nhat/index.md) [Học tập](./bai-viet/hoc-tap/index.md) [Đọc sách](./bai-viet/doc-sach/index.md) [Suy tưởng](./bai-viet/suy-nghi/index.md)
 
-### Học tập
-- [16/07/2024 - Sự hình thành và phát triển của tư tưởng Đông Phương](/bai-viet/tu-tuong-dong-phuong.md)
-- [14/08/2024 - Cán mốc 1800 Kanji (Thực ra mục tiêu trên 2000 nhưng mấy Hán Tự không thích học thì xóa gòi)](./bai-viet/hoc-kanji-cap-nhat-08-2024.md)
-
-### Dự án cộng đồng
-- [03/08/2024 - Cập nhật tháng 08/2024](/bai-viet/cap-nhat-thang-08-2024.md)
-
-### Nghệ thuật
-- [Chắc là học vẽ](./bai-viet/chac-la-hoc-ve.md)
-
-### Lập trình
-- [05/08/2024 - Tự học Rust các thứ](/bai-viet/rust-howto.md)
-
-### Linh tinh
-- [Lười "chuyên nghiệp](./bai-viet/luoi-chuyen-nghiep.md)
-
+[Dự án](./bai-viet/du-an/index.md) [Lập trình](./bai-viet/lap-trinh/index.md) [Sở thích](/bai-viet/so-thich/index.md) [Tu luyện](./bai-viet/ren-luyen/index.md)
 
 ## Còn gì khác
 Làm một bữa sáng
