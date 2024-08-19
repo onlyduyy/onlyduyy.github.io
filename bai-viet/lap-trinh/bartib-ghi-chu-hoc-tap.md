@@ -1,6 +1,9 @@
 Mình học được những gì từ dự án Bartib
 
-Config file (Đây có thể là tệp Report) 
+### Chia cấu trúc tệp
+- Dù không hiểu lắm nhưng họ chia `Controller - Data - View` là sao?
+
+### Tệp config (Đây có thể là tệp Report) 
 
 ```rust
 use chrono::Duration;
@@ -18,7 +21,7 @@ pub struct ProcessConfig {
 }
 ```
 
-Ở `main.rs` thì
+### `main.rs`
 `fn main() -> Result<()>` -> Làm như thế này bằng `anyhow`
 
 Còn khi thêm args sử dụng `clap` thì:
@@ -166,3 +169,137 @@ Một số phần thắc mắc:
 
 Thư viện xử lý thời gian - chrono - TODO: Cần học cơ bản.
 
+
+### Sử dụng tag để xử lý error cùng `thiserror`
+Thêm vào `Cargo.toml`
+```toml
+[dependencies]
+thiserror = "1.0"
+``` 
+
+Hình như chỉ thường dùng trong `Struct` hoặc `Enum`
+
+```rust
+#[derive(Error, Debug)]
+pub enum ActivityError {
+    #[error("could not parse date or time of activity")]
+    DateTimeParseError,
+    #[error("could not parse activity")]
+    GeneralParseError,
+}
+```
+
+### Khi nào sử dụng `#[must_use]`
+`#[must_use]`: Được dùng khi "The #[must_use] attribute can be applied to types or functions when failing to explicitly consider them or their output is almost certainly a bug." (Được lấy từ std-dev-guide)
+
+`NaiveDateTime`: Được sử dụng không cần Timezone, xử lý thời gian thế nào.
+
+### Một số các mẫu `unwrap()` khác
+```rust
+time.unwrap_or_else(|| Local::now().naive_local())
+```
+If the value is `None`, it will return Local::now().naive_local()`
+
+```rust
+or_else(|| Some(Local::now().naive_local())); // Nếu vẫn muốn trả về Option<>?
+```
+`signed_duration_since()` calculates the time it takes. Something like
+
+```rust
+	end.signed_duration_since(self.start)
+```
+
+### Đọc và ghi tệp
+- Khi đọc tệp thì nên dùng `BufReader` thay vì `fs::read_to_string()`.
+
+```rust
+	let file_handler =
+        File::open(file_name).context(format!("Could not read from file: {file_name}"))?;
+    let reader = BufReader::new(file_handler);
+    let lines = reader
+        .lines()
+        .map_while(Result::ok)
+        .enumerate()
+        .map(|(line_number, line)| Line::new(&line, line_number.saturating_add(1)))
+        .collect();
+```
+
+Sử dụng `enumerate()` để trả giá trị kiểu `(line_number, line_content)`. Sẽ có ích trong một số trường hợp, chắc vậy.
+
+
+### Đóng giá trị vào trong `&[value]` để làm gì?
+```rust
+pub fn write_to_file(file_name: &str, file_content: &[Line]) -> Result<(), io::Error> {
+	Ok(())
+}
+```
+
+### Sử dụng `usize` khác gì so với `u32`, `u64`? 
+
+
+
+### Tạo một custom Error class
+```rust
+#[derive(Error, Debug)]
+pub enum ActivityError {
+    #[error("could not parse date or time of activity")] // Lấy từ `thiserror` crate
+    DateTimeParseError,
+    #[error("could not parse activity")]
+    GeneralParseError,
+}
+```
+### Thực hiện impl các chức năng từ `std` lib cho các function hoặc struct riêng của mình?
+```rust
+impl fmt::Display for Activity {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+```
+
+### Sử dụng `as-ref()` khác gì so với `&`?
+```rust
+write!(&file_handler, "{}", line.activity.as_ref().unwrap())?
+```
+Theo docs thì: "Converts this type into a shared reference of the (usually inferred) input type." (as_ref()). Vậy tức là ở đây chỉ dừng ở mức `convert` chứ không thực sự `Borrow`?
+
+
+## Viết chức năng lọc nội dung theo ngày, tuần, tháng
+```rust
+pub struct Filters {}
+
+impl Filters {
+```
+
+Và các chức năng sẽ trông như thế này khi `impl`
+
+```rust
+pub fn active(activity: &&Activity) -> bool {
+        !activity.is_stopped() // Chắc là sẽ chạy dùng `.filter()` và giá trị nếu trả true thì lấy, kiểu vậy
+    }
+	// NaiveDate:
+    pub fn today(today: NaiveDate) -> impl Fn(&&Activity) -> bool {
+        move |activity: &&Activity| activity.start.date() == today
+    }
+	// Tại sao lại `-> impl Fn(&&Activity)`? Dù đã từng dùng nhưng chưa bao giờ trả như vậy
+	// Có phải giá trị của nó sẽ là `impl Fn(&&Activity) -> bool` (Cả cục?)
+    pub fn current_week(today: NaiveDate) -> impl Fn(&&Activity) -> bool {
+        let from_date = today - Duration::days(i64::from(today.weekday().num_days_from_monday()));
+        let to_date = today;
+        move |activity: &&Activity| {
+            activity.start.date() >= from_date && activity.start.date() <= to_date
+        }
+    }
+	// Trả giá trị theo tháng
+	// `from_ymd_opt()`??
+    pub fn current_month(today: NaiveDate) -> impl Fn(&&Activity) -> bool {
+        let from_date = NaiveDate::from_ymd_opt(today.year(), today.month(), 1).unwrap();
+        let to_date = today;
+        move |activity: &&Activity| {
+            activity.start.date() >= from_date && activity.start.date() <= to_date
+        }
+    }
+```
+
+### Sử dụng wildmatch để xử lý String
+
+Không biết nhưng thấy người ta dùng và đọc trên [crates.io](https://crates.io/crates/wildmatch) thì thấy nó nhanh phết và chỉ dựa trên `stdlib`.
+
+**Simple string matching with single- and multi-character wildcard operator.**
