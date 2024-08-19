@@ -3,93 +3,92 @@
 Đây là một bài viết nhanh về kế hoạch tự học Rust của mình + danh sách dự án.
 
 ## Kế hoạch
-- Đưa những kiến thức hay ho từ hướng dẫn đi theo vào trong Anki
-- Làm dự án số lượng lớn. Đọc ở các mục dưới.
+- <Đưa những kiến thức hay ho từ hướng dẫn đi theo vào trong Anki
+- <Làm dự án số lượng lớn. Đọc ở các mục dưới.
 
 ## Hướng dẫn đi theo
 
-1. https://doc.rust-lang.org/stable/book/
-2. Cookbook: https://rust-lang-nursery.github.io/rust-cookbook/
-3. Too many lists: https://rust-unofficial.github.io/too-many-lists/
-4. For revisiting things I forgot: https://learning-rust.github.io/docs/overview/
-5. Another blog post about learning rust: https://kerkour.com/rust-mental-models
-6. Note: https://gist.github.com/noxasaxon/7bf5ebf930e281529161e51cd221cf8a
+1. [The Book](https://doc.rust-lang.org/stable/book/)
+2. [Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) 
+3. [Too many lists](https://rust-unofficial.github.io/too-many-lists/) 
+4. [For revisiting things I forgot](https://learning-rust.github.io/docs/overview)
+5. [Another blog post about learning rust](https://kerkour.com/rust-mental-models)
 
-## Knows the basic, how to keep goin'?
-- https://cliffle.com/blog/rust-typestate/
-- https://rust-unofficial.github.io/patterns/
-- https://www.thecodedmessage.com/posts/trivia-rust-types/
-- https://refactoring.guru/design-patterns/rust
-- https://blog.yoshuawuyts.com/futures-concurrency-3/
-- https://developerlife.com/2022/03/30/rust-proc-macro/ 
-- Crust of rust: https://inv.tux.pizza/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa
+## Biết cơ bản rồi thì
+- <<https://cliffle.com/blog/rust-typestate>
+- <https://rust-unofficial.github.io/patterns>
+- <https://www.thecodedmessage.com/posts/trivia-rust-types>
+- <https://refactoring.guru/design-patterns/rust>
+- <https://blog.yoshuawuyts.com/futures-concurrency-3>
+- <https://developerlife.com/2022/03/30/rust-proc-macro>
+- Crust of rust <https://inv.tux.pizza/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa>
 
 ## Something else
-- https://cheats.rs/ (Cheatsheet)
+- <https://cheats.rs/> (Cheatsheet)
 
 ## Idea
-- https://lukaskalbertodt.github.io/2015/10/09/building-an-sql-database-with-10-rust-beginners.html
-- https://endler.dev/2019/tinysearch/
+- <https://lukaskalbertodt.github.io/2015/10/09/building-an-sql-database-with-10-rust-beginners.html>
+- <https://endler.dev/2019/tinysearch/>
 
 
 
 ## List
 
 - implement awk
-  - https://lwn.net/SubscriberLink/820829/5bf9bf8bb9d6f2bf/
-  - https://pubs.opengroup.org/onlinepubs/9699919799/utilities/awk.html
-  - https://www.gnu.org/software/gawk/manual/gawk.html
-  - https://9p.io/cm/cs/awkbook/index.html
+  - <https://lwn.net/SubscriberLink/820829/5bf9bf8bb9d6f2bf>
+  - <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/awk.html>
+  - <https://www.gnu.org/software/gawk/manual/gawk.html?
+  - <https://9p.io/cm/cs/awkbook/index.html>
 - implement lomuto partitioning in std sort
-  - https://news.ycombinator.com/item?id=23212620
+  - <https://news.ycombinator.com/item?id=23212620>
 - implement ganache in rust
-  - https://github.com/trufflesuite/ganache-cli
+  - <https://github.com/trufflesuite/ganache-cli>
   - it's slow
 - implement libsignal in rust
-  - https://github.com/Michael-F-Bryan/libsignal-protocol-rs
+  - <https://github.com/Michael-F-Bryan/libsignal-protocol-rs>
 - implement midi 2.0
 - coreutils benchmark
-  - https://github.com/uutils/coreutils
-  - https://github.com/redox-os/coreutils
-  - https://github.com/davidfischer/pycoreutils
-  - https://github.com/coreutils/coreutils (gnu)
+  - <https://github.com/uutils/coreutils>
+  - <https://github.com/redox-os/coreutils>
+  - <https://github.com/davidfischer/pycoreutils>
+  - <https://github.com/coreutils/coreutils> (gnu)
   - busybox
-  - https://github.com/guonaihong/coreutils
-  - https://github.com/EricLagergren/go-coreutils
-  - https://github.com/GrayJack/coreutils
+  - <https://github.com/guonaihong/coreutils>
+  - <https://github.com/EricLagergren/go-coreutils>
+  - <https://github.com/GrayJack/coreutils>
 - tokei but sorted by crate - which crates contribute the most code
-- implement activitypub https://activitypub.rocks/
+- implement activitypub <https://activitypub.rocks>
 - implement a private token on top of ckb
   - use the zcash rust libraries
-  - https://github.com/trailofbits/publications/blob/master/reviews/ZcashWP.pdf
+  - <https://github.com/trailofbits/publications/blob/master/reviews/ZcashWP.pdf>
 - implement "age" encryption tool
-  - https://github.com/FiloSottile/age
-  - https://news.ycombinator.com/item?id=21895671
+  - <https://github.com/FiloSottile/age>
+  - <https://news.ycombinator.com/item?id=21895671>
 - add hyperscan to rust-regex
-  - https://news.ycombinator.com/item?id=21876284
+  - <https://news.ycombinator.com/item?id=21876284>
 - implement junction concurrent hashmaps in rust
-  - https://preshing.com/20160201/new-concurrent-hash-maps-for-cpp/
+  - <https://preshing.com/20160201/new-concurrent-hash-maps-for-cpp>
 - create a systems language benchmark using real-world software
   - e.g. grep, ls, http, key-value
 - implement qrencode in rust
 - implement wireguard in rust
 - implement OpenBLAS in rust
 - implement a pic compiler
-  - https://en.wikipedia.org/wiki/Pic_language
+  - <https://en.wikipedia.org/wiki/Pic_language>
 - implement nongnu libunwind in rust
   - just the stack tracing to begin with, for use in backtrace-rs
 - implement faster-utf8-vaidator for core run_utf8_validation
-  - https://news.ycombinator.com/item?id=21547369
-  - https://github.com/zwegner/faster-utf8-validator
-  - https://github.com/lemire/fastvalidate-utf-8
-  - https://github.com/killercup/simd-utf8-check
+  - <https://news.ycombinator.com/item?id=21547369>
+  - <https://github.com/zwegner/faster-utf8-validator>
+  - <https://github.com/lemire/fastvalidate-utf-8>
+  - <https://github.com/killercup/simd-utf8-check>
 - unpdf - convert pdf research papers to html
 - implement redis with crossbeam-skiplist
 - re-implement sphinx
 - re-implement 'data landscape' projects
-  - https://mattturck.com/data2019/
+  - <https://mattturck.com/data2019>
 - substrate on ckb
-  - https://www.parity.io/utxo-on-substrate/
+  - <https://www.parity.io/utxo-on-substrate>
 - implement vst3.0 in rust
 - implement vst2.0 in rust
 - site to collect rust new contributor issues
@@ -97,113 +96,113 @@
 - ArcMutex, etc
 - jekyll clone in rust
   - start by just replacing jekyll code
-- use new linux aio for files https://lwn.net/Articles/776703/
+- use new linux aio for files https://lwn.net/Articles/776703>
 - occassion-emoji.com - find emoji's by occassion
 - rustfmt/clippy integration into cargo test
-- port https://github.com/rv8-io/rv8 to rust
+- port <https://github.com/rv8-io/rv8> to rust
 - port dynasm to rust
 - crate loc counter that accounts for dependencies
   - maybe just modify tokei
-- auditable cryptobin in rust
-- better sql https://edgedb.com/blog/we-can-do-better-than-sql/
-- lucene in rust
+- <auditable cryptobin in rust
+- <better sql https://edgedb.com/blog/we-can-do-better-than-sql>
+- <lucene in rust
 - rust module extraction tool
-  - use item dependency graph
-  - show modules that are crate-independent
-  - show crate-dependencies of modules
-  - recommend refactoring plan
-  - show wich items are being imported the most,
+  - <use item dependency graph
+  - <show modules that are crate-independent
+  - <show crate-dependencies of modules
+  - <recommend refactoring plan
+  - <show wich items are being imported the most,
     outside of their module
-    - these are the items to abstract first
-  - show which items are being imported the most
+    - <these are the items to abstract first
+  - <show which items are being imported the most
     into module M.
-  - enforce that mods don't have crate dependencies
-    - with annotation
-- asm black_box
-- pthreads in rust, binary compatible
-- alloc-free unwinder
-- mustache template macros
-- write good documentation guidelines
-- runtime machine code function inliner
-- tool to turn off cargo default features
-  - one at a time, in dag order
-- count the numbers of - and _ in crate names
-- revive https://github.com/brson/pwrabs
-- revive https://github.com/brson/cargo-index-tool
+  - <enforce that mods don't have crate dependencies
+    - <with annotation
+- <asm black_box
+- <pthreads in rust, binary compatible
+- <alloc-free unwinder
+- <mustache template macros
+- <write good documentation guidelines
+- <runtime machine code function inliner
+- <tool to turn off cargo default features
+  - <one at a time, in dag order
+- <count the numbers of - <and _ in crate names
+- <revive https://github.com/brson/pwrabs
+- <revive https://github.com/brson/cargo-index-tool
 - double-fail finder
-- convert terminal text w/ ANSI escapes to HTML
-- convert markdown to text w/ ANSI escapes
-- lib to create ansi escape sequences
-- lib to strip ANSI escapes from a stream
+- <convert terminal text w/ ANSI escapes to HTML
+- <convert markdown to text w/ ANSI escapes
+- <lib to create ansi escape sequences
+- <lib to strip ANSI escapes from a stream
 - implement SSTable
-- simple cli logger
-  - use log macros like println - no extra "junk" like timestamps
-  - env vars can turn on traditional env_logger
-- kv server
-  - multiple frontends: HTTP GET/PUT, memcached, in-process
-    - tikv, 
-  - multiple backends: fs, tikv, rocks, berkelydb, sled
-- matrix server
+- <simple cli logger
+  - <use log macros like println - <no extra "junk" like timestamps
+  - <env vars can turn on traditional env_logger
+- <kv server
+  - <multiple frontends: HTTP GET/PUT, memcached, in-process
+    - <tikv, 
+  - <multiple backends: fs, tikv, rocks, berkelydb, sled
+- <matrix server
 - rust mdn documentation project
 - implement heap layers and mesh
-  - https://github.com/plasma-umass/Mesh
+  - <https://github.com/plasma-umass/Mesh
 - rust project metadata infobase
-  - bin/lib info from gimli / symbolic (?)
-  - debuginfo from gimli and (something)
-  - lib metadata via rustc
+  - <bin/lib info from gimli / symbolic (?)
+  - <debuginfo from gimli and (something)
+  - <lib metadata via rustc
   - rustc metadata via rustc
-  - q:s
-    - how much time / space can I save be deleting dupe deps?
-- Rust WAF https://github.com/0xInfection/Awesome-WAF
-- least-common-denominator sql
+  - <q:s
+    - <how much time / space can I save be deleting dupe deps?
+- rust WAF https://github.com/0xInfection/Awesome-WAF
+- <least-common-denominator sql
   - create a test suite of well-specced sql features that passes in every common database
   - create database adapters that expose only the common functionality
   - create an implementation of common-sql
-- error_type! / quick_error! for Fail
-- Security tools in Rust
-  - https://blog.gtank.cc/modern-alternatives-to-pgp/
-  - https://news.ycombinator.com/item?id=19173326
-- OpenGPG reimplementation
-- LSM tree or persistent ART
-- contribute to uutils
+- <error_type! / quick_error! for Fail
+- <Security tools in Rust
+  - <https://blog.gtank.cc/modern-alternatives-to-pgp>
+  - <https://news.ycombinator.com/item?id=19173326
+- <OpenGPG reimplementation
+- <LSM tree or persistent ART
+- <contribute to uutils
 - create BTree / HashMap initializers from tupels. Does this not exist?!
 - rust contribution guide
 - list all rust validation projects
-- top-down performance in rust
-  - https://dendibakh.github.io/blog/2019/02/09/Top-Down-performance-analysis-methodology
+- <top-down performance in rust
+  - <https://dendibakh.github.io/blog/2019/02/09/Top-Down-performance-analysis-methodology
 - rust-wiki.com
 - rustdoc-lint
-- crate that allows defining 'cfg' macros
-  - for repeated cfgs, instead of #[cfg(all(jemalloc, not(fuzzing)))] write #[cfg(jemalloc_on)]
+- <crate that allows defining 'cfg' macros
+  - <for repeated cfgs, instead of #[cfg(all(jemalloc, not(fuzzing)))] write #[cfg(jemalloc_on)]
 - rustup that adds key system packages like cmake
-- zero-allocate symbolicated backtraces
+- <zero-allocate symbolicated backtraces
 - rust microservice toolkit
-  - everything is also a library
-  - built on pingcap where possible
+  - <everything is also a library
+  - <built on pingcap where possible
   - comprehensive authentication microservice
   - comprehensive etcd-like microservice
-    - for now just create an etcd api for tikv
+    - <for now just create an etcd api for tikv
   - comprehensive payments microservice
-  - message bus
-    - either kafa or a kafka layer on top of tikv
-  - mysql (or postgres) microservice - TiDB
-  - notifications microservice - web and mobile
-  - user tracking
-  - metricsc - prometheus + grafana
-  - DNS? Does anybody need this?
-  - service mesh - linkerd?
-  - raft microservice / library
+  - <message bus
+    - <either kafa or a kafka layer on top of tikv
+  - <mysql (or postgres) microservice - <TiDB
+  - <notifications microservice - <web and mobile
+  - <user tracking
+  - <metricsc - <prometheus + grafana
+  - <DNS? Does anybody need this?
+  - <service mesh - <linkerd?
+  - <raft microservice / library
 - implement rosie pattern matching in rust
-  - https://spin.atomicobject.com/2018/11/14/rosie-pattern-language/#.W-xEPiyim0g.hackernews
-- cloneables
-  - haproxy / nginx / varnish
+  - <https://spin.atomicobject.com/2018/11/14/rosie-pattern-language/#.W-xEPiyim0g.hackernews
+- <cloneables
+  - <haproxy / nginx / varnish
 - implement grep with ripgrep (and egrep etc)
-  - and ag, and ack
-- turn chalk/datafrog/differential-dataflow into a real language
-  - hook up datafrog to differential/timely-dataflow
-  - give datafrog a datlog syntax
-- simd mempcy+utf8 verify
-  - wtf does this mean
+  - <and ag, and ack
+- <turn chalk/datafrog/differential-dataflow into a real language
+  - <hook up datafrog to differential/timely-dataflow
+  - <give datafrog a datlog syntax
+- <simd mempcy+utf8 verify
+  - <wtf does this mean
 - remove duplicate deps in rust's Cargo.lock
 - reimplement emacs in rust
 - simd-optimize mem.rs
@@ -211,10 +210,10 @@
 - write an 'aspect-oriented' instrumentation systam for rust/std
 - use polkadot to build a payed distriuted hash table
   - s-chord plus token incentives
-  - http://zoo.cs.yale.edu/classes/cs722/2011/Jason_chord.pdf
-  - http://www.cs.unm.edu/~treport/tr/05-04/chord.pdf
+  - <http://zoo.cs.yale.edu/classes/cs722/2011/Jason_chord.pdf>
+  - <http://www.cs.unm.edu/~treport/tr/05-04/chord.pdf>
   - maybe like sia?
-  - tonka: https://pdos.csail.mit.edu/~petar/5ttt.org/
+  - tonka: <https://pdos.csail.mit.edu/~petar/5ttt.org>
 - nginx-like web server
   - self-contained
   - rhai bindings, others
@@ -223,9 +222,9 @@
 - rust history browser
 - rust v c++ v c, etc benchmark
 - nts/ntp client/server https://tools.ietf.org/html/draft-ietf-ntp-using-nts-for-ntp-19
-- productize servo
-  - https://refresh.study/
-  - https://news.ycombinator.com/item?id=17638477
+- <productize servo
+  - <https://refresh.study>
+  - <https://news.ycombinator.com/item?id=17638477?
 - review r/rust
 - review twir
 - review rfcs
@@ -234,126 +233,126 @@
 - read /r/rust
 - read urlo
 - read irlo
-- praise commenters
+- <praise commenters
 - review prs
 - review rustup prs
 - review cargo prs
 - review guideniles book
 - do upcoming feature report (for twir?)
-- write blog posts
+- <write blog posts
 - do markdown shootout
-- hack on cretonne
-- reactive controls systems
-- lalrpop rust grammer
+- <hack on cretonne
+- <reactive controls systems
+- <lalrpop rust grammer
 - rustc cretonne backend
-- procuctize serve browser
-- productize servo app platform
+- <procuctize serve browser
+- <productize servo app platform
 - do outstandig prs
-  - andle control over projects
-- check in on projects we've handed control over
-- fix bug in doc-testing used for cookbook
-- triage cookbook
-- make a vector game with pathfinder
-- accellerate is_ascii
-- update twoway for intrinsics
-- optimize memchr to match glibc with intrinsics
-  - compare core memchr to sushi's memchr
-- contribute to https://github.com/joncatanio/cannoli
-- write for rust edition guide
-- hack on cargobomb windows support
-- hack on cargobomb rustfix
+  - <andle control over projects
+- <check in on projects we've handed control over
+- <fix bug in doc-testing used for cookbook
+- <triage cookbook
+- <make a vector game with pathfinder
+- <accellerate is_ascii
+- <update twoway for intrinsics
+- <optimize memchr to match glibc with intrinsics
+  - <compare core memchr to sushi's memchr
+- <contribute to https://github.com/joncatanio/cannoli
+- <write for rust edition guide
+- <hack on cargobomb windows support
+- <hack on cargobomb rustfix
 - rust anthology
-- stdx
-- tystack
+- <stdx
+- <tystack
 - rust api guidelines
 - rust cookbook
-- chamber
+- <chamber
 - rust playbook
-- profiling iterator
-- struct-of-vecs
+- <profiling iterator
+- <struct-of-vecs
 - rust-skeptic
-- local rust installer
+- <local rust installer
 - rustupult
-  - bash/powershell one-liner to build and run any rust program
-- antigen rust
-- nested bump-region allocator
-- single-threaded allocator
-- ngstd ("nug-stud"), no-generics std
-  - for no-generics, abi-compat-rust,
-  - crate some common data structures
+  - <bash/powershell one-liner to build and run any rust program
+- <antigen rust
+- <nested bump-region allocator
+- <single-threaded allocator
+- <ngstd ("nug-stud"), no-generics std
+  - <for no-generics, abi-compat-rust,
+  - <crate some common data structures
 - rustup sanity check
-  - check for functioning environment
-  - configure rust to work in any environment
-  - fedora -> sudo yum install gcc, etc.
-  - macos -> download and install xcode, etc.
-  - make a rustup plugin
-- O.G. Rust Series
-  - og_fmt the fmt` macro
-  - og_lovecraft - lovecraft faults
-  - og_strbuf - String -> StrBuf
-- heap dump/restore for rust ala glibc dumper
-  - https://news.ycombinator.com/item?id=13073566
+  - <check for functioning environment
+  - <configure rust to work in any environment
+  - <fedora -> sudo yum install gcc, etc.
+  - <macos -> download and install xcode, etc.
+  - <make a rustup plugin
+- <O.G. Rust Series
+  - <og_fmt the fmt` macro
+  - <og_lovecraft - <lovecraft faults
+  - <og_strbuf - <String -> StrBuf
+- <heap dump/restore for rust ala glibc dumper
+  - <https://news.ycombinator.com/item?id=13073566
 - rust: the language: the game (rust-the-game.md)
-- cli-kit
-  - everything i need when making a cli program
-  - reexports
-    - log, error-chain, reqwest
-  - script functions
-    - run, download, copy_dir, remove_dir_all
-  - systems conveniences
+- <cli-kit
+  - <everything i need when making a cli program
+  - <reexports
+    - <log, error-chain, reqwest
+  - <script functions
+    - <run, download, copy_dir, remove_dir_all
+  - <systems conveniences
     - dojob, hardlink, flock, symlink_dir
-    - symlink-aware remove_dir
-    - retry with exponential decay
-  - I/O conveniences
-    - write_string, read_string, write_lines, read_lines,
-    - run while intercepting output (tee?)
-  - deployment
-    - pack and repack multiple-platform bins into one
-    - self-update
-    - aws/gce/azure/kubernetes jobs
-- atomic-io, io-tree, io-sift
-  - framework for doing cargobomb-style distributed io
-  - framework for creating reliable programs that recover from crashes
-  - look into redux model for state changes
+    - <symlink-aware remove_dir
+    - <retry with exponential decay
+  - <I/O conveniences
+    - <write_string, read_string, write_lines, read_lines,
+    - <run while intercepting output (tee?)
+  - <deployment
+    - <pack and repack multiple-platform bins into one
+    - <self-update
+    - <aws/gce/azure/kubernetes jobs
+- <atomic-io, io-tree, io-sift
+  - <framework for doing cargobomb-style distributed io
+  - <framework for creating reliable programs that recover from crashes
+  - <look into redux model for state changes
 * http/2 framework
 * chamber, gaol, ipc-channel sandbox
 * semver tool
-  - talk to https://twitter.com/badboy_/status/741626328173162497
+  - <talk to https://twitter.com/badboy_/status/741626328173162497
 * anthology
 * rust http server throwdown
 * battleplan https://gist.github.com/brson/9b20cb38d90a707a37c7d3ec0b5ba8d5
 - rust-mob
   - rust platform++
-  - instant distributed systems
-  - adjectives: distributed, secure, solid, heterogeneous, diverse,
+  - <instant distributed systems
+  - <adjectives: distributed, secure, solid, heterogeneous, diverse,
     welcoming, easy, expansive, inevitable, indestructable, indomitable
-  - a tool and cargo metapackage for defining, building, validating,
+  - <a tool and cargo metapackage for defining, building, validating,
     deploying, and maintaining distributed systems
-  - suitable for games, apps, websites, ioc, botnets
-  - showcase the best of rust
-  - project templates for platforms and roles
-    - (builds on rust platform platform support)
-    - android, iOS, flatpak, windows
-    - web server, message server, clients, android game wasm app
-  - focus on higher-level laguage for UIs, rust for infrastructure
-    - (builds on rust platform bridges)
-    - java for android, ruby for websites, swift for ios,
+  - <suitable for games, apps, websites, ioc, botnets
+  - <showcase the best of rust
+  - <project templates for platforms and roles
+    - <(builds on rust platform platform support)
+    - <android, iOS, flatpak, windows
+    - <web server, message server, clients, android game wasm app
+  - <focus on higher-level laguage for UIs, rust for infrastructure
+    - <(builds on rust platform bridges)
+    - <java for android, ruby for websites, swift for ios,
       python for whatever, C# for windows / unity,
       javascript for web
-    - make rust appeal to all language communities
-    - use rust for for the common infrastructure
-  - build and test on many platforms, mostly via docker
-    - (builds on platform infrastructure support)
-  - automatic deployment to cloud, app stores, devices
-    - integrate with kubernetes or something like it
-  - automatic security and authentication
-    - include some scheme for securing communications and use it across all platforms
-  - integration with payment platforms, add networks, cryptocurrency?
-  - multiple communication strategies, mqtt, https, p2p
-  - device mangement framework with web interface
-  - aws, android, ios, desktop packages, stores
-  - make it easy to bring up exotic hardware platforms quickly
-    - capture the next-gen thing as a value-add
+    - <make rust appeal to all language communities
+    - <use rust for for the common infrastructure
+  - <build and test on many platforms, mostly via docker
+    - <(builds on platform infrastructure support)
+  - <automatic deployment to cloud, app stores, devices
+    - <integrate with kubernetes or something like it
+  - <automatic security and authentication
+    - <include some scheme for securing communications and use it across all platforms
+  - <integration with payment platforms, add networks, cryptocurrency?
+  - <multiple communication strategies, mqtt, https, p2p
+  - <device mangement framework with web interface
+  - <aws, android, ios, desktop packages, stores
+  - <make it easy to bring up exotic hardware platforms quickly
+    - <capture the next-gen thing as a value-add
   - mob-platform collects all the components it builds on
   - build on existing rust libs
   - investigate botnet c&c
@@ -374,15 +373,15 @@
 - implement etcd with raft-rs
 - create markdown-editing web-app for mobile
 - create a wasm dynamic linker
-- write a reddit client with new api
+- <write a reddit client with new api
 - create a global shared rust crate cache
 - implement fuchsia's microkernel in rust
-- package servo
+- <package servo
 - add afl to cargo-fuzz
 - add hongfuzz to cargo-fuzz
 - cretonne rustc backend
 - cretone custom compiler
 - get more proof for rust being fastest language in the world
 - cargo-crusader
--  rust-api-guidelines
--  re-annotitade std
+- rust-api-guidelines
+- re-annotitade std
