@@ -9,10 +9,30 @@ Mình cũng là thằng cha viết các thứ ở bên [Khu học mở](https://
 ## Chuyên mục
 Choose one that makes you curious and then just read it (if you want to).
 
- ※※※※※※※※※ | ※※※※※※※※※ | ※※※※※※※※※ | ※※※※※※※※※ 
- --- | --- | --- | ---
-[Cập nhật](./bai-viet/cap-nhat/index.md) | [Học tập](./bai-viet/hoc-tap/index.md) | [Đọc sách](./bai-viet/doc-sach/index.md) | [Suy tưởng](./bai-viet/suy-nghi/index.md)
-[Dự án](./bai-viet/du-an/index.md) | [Lập trình](./bai-viet/lap-trinh/index.md) | [Sở thích](/bai-viet/so-thich/index.md) | [Tu luyện](./bai-viet/ren-luyen/index.md)
+
+### [Cập nhật](./bai-viet/cap-nhat/index.md) 
+Thông báo của cá nhân, lẫn **Khu học mở**.
+
+### [Học tập](./bai-viet/hoc-tap/index.md)
+Những kiến thức mới đã được tiếp thu.
+
+### [Đọc sách](./bai-viet/doc-sach/index.md)  
+Ghi lại những gì đã học được từ việc đọc sách.
+
+### [Suy tưởng](./bai-viet/suy-nghi/index.md)
+Cảm nhận cá nhân, chắc vậy.
+
+### [Dự án](./bai-viet/du-an/index.md)  
+Những dự án lập trình, blog và các thứ khác.
+
+### [Lập trình](./bai-viet/lap-trinh/index.md)  
+Viết về những điều đã, đang và sẽ học để làm phần mềm.
+
+### [Sở thích](/bai-viet/so-thich/index.md)  
+Viết về sở thích cá nhân và cách phát triển chúng như học vẽ, đan len.
+
+### [Tu luyện](./bai-viet/ren-luyen/index.md)
+Tự viết về quá trình tu luyện của bản thân.
 
 ## Còn gì khác
 Làm một bữa sáng
