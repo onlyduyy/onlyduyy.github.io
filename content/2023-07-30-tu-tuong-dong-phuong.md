@@ -2,8 +2,6 @@
 title: Bài viết về những nhà tư tưởng Châu Á
 description: "Tìm hiểu thêm về các nhà tư tưởng"
 date: 2024-07-30
-taxonomies:
-  tags: [lịch-sử]
 ---
 
 ## Bài viết về những nhà tư tưởng Châu Á

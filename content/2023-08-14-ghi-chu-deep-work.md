@@ -2,8 +2,6 @@
 title: Những gì mình học được từ Deep Work
 description: "Cập nhật"
 date: 2024-08-15
-taxonomies:
-  tags: [đọc-sách]
 ---
 
 ## Hypothesis
