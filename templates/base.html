@@ -1,14 +1,41 @@
-{% import 'macros.html' as macros %}
+<!doctype html>
+<html>
 
-<!DOCTYPE html>
-<html lang="en-US">
-  {% include "partials/head.html" %}
+<head>
+  <meta charset="utf-8">
+  <title>{{ config.title }}</title>
+  <link rel="stylesheet" href="{{ config.base_url }}/simple.css" }}">
 
-  <body>
-    {% include "partials/header.html" %}
+  {% if config.extra.favicon %}
+  <link rel="shortcut icon" href="{{ config.base_url }}{{ config.extra.favicon }}">
+  {% endif %}
 
-    <main> {% block content %} {% endblock content %} </main>
+  <link rel="alternate" type="application/atom+xml" title="Ciao!" href="{{ config.base_url }}/atom.xml">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+ 
+  {% if page.extra.latex %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            throwOnError : false
+          });
+      });
+  </script>
+  {% endif %}
 
-    {% include "partials/footer.html" %}
-  </body>
+</head>
+
+<body>
+    {% block content %} {% endblock %}
+</body>
+
 </html>
