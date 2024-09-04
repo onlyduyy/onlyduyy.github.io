@@ -1,16 +1,11 @@
-title = "Ciao!"
-description = "“When you don't create things, you become defined by your tastes rather than ability. Your tastes only narrow & exclude people. So create.” ― Why The Lucky Stiff"
+title = "duykhanh471"
+description = "Tôi lười vì tôi không chăm"
 
 # The URL the site will be built for
-base_url = "https://tsai002.github.io/nodep"
+base_url = "https://onlyduyy.github.io"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
-
-generate_feed = true
 
 [markdown]
 # Whether to do syntax highlighting
@@ -19,9 +14,6 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-github = "https://github.com/Tsai002/nodep"
-douban = ""
-mastodon = "https://mastodon.xyz/@ciao"
-mail = "tsai2049@gmail.com"
+github = "https://onlyduyy.github.io"
 
 favicon = "/imgs/zola-favicon.ico"

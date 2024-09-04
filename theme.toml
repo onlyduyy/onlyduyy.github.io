@@ -1,11 +1,10 @@
-name = "Ciao!"
+name = "Nothing"
 description = "A beautiful and least dependency blog theme"
 license = "MPL 2.0"
 homepage = "https://github.com/Tsai002/nodep"
 # The minimum version of Zola required
 min_version = "0.4.0"
 # An optional live demo URL
-demo = "https://tsai002.github.io/"
 
 # Any variable there can be overridden in the end user `config.toml`
 # You don't need to prefix variables by the theme name but as this will
@@ -15,8 +14,8 @@ demo = "https://tsai002.github.io/"
 
 # The theme author info: you!
 [author]
-name = "Tsai002"
-homepage = "https://tsai002.github.io/"
+name = "duykhanh471"
+homepage = "https://onlyduyy.github.io"
 
 # If this is porting a theme from another static site engine, provide
 # the info of the original author here
