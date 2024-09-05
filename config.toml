@@ -15,4 +15,6 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 github = "https://onlyduyy.github.io"
-favicon = "/imgs/zola-favicon.ico"
+rss = "khongcogi"
+mail = "duykhanh471@protonmail.com"
+favicon = "/imgs/douban.svg"

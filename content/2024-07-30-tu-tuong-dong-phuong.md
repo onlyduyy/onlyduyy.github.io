@@ -4,8 +4,6 @@ description: "Tìm hiểu thêm về các nhà tư tưởng"
 date: 2024-07-30
 ---
 
-## Bài viết về những nhà tư tưởng Châu Á
-
 Thông tin không hay 1: "Á" hay 亜, thường mang ý nghĩa "Thứ 2" hoặc "Về nhì", ví dụ như "Á Quân", "Á nhân" (Thường ám chỉ những người hạ cấp, hoặc cấp thấp, trong một số tác phẩm giả tưởng thường để ám chỉ người thú). Mình không biết nguồn gốc bắt nguồn hay tại sao lại gọi "Châu Á" là "Châu Á".
 
 Người ta thường đồng nhất tư duy phương Đông với tinh thần truyền thống từ tổ tiên để lại, tập trung ở minh triết, nhận thức về ngã và không kham được tư duy duy lý tiêu biểu cho phương Tây. Thật ra là thế nào?
