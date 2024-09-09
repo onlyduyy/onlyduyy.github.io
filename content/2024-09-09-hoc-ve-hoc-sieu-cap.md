@@ -1,3 +1,9 @@
+---
+title: ĐHọc được những gì từ cuốn Ultralearning
+description: "Chiến"
+date: 2024-09-09
+---
+
 - Đây là bài viết ghi chú lại những gì mình đã học trong lần đầu tiên đọc cuốn Ultralearning và đi tìm hiểu thêm thông qua nhiều nguồn.
 
 

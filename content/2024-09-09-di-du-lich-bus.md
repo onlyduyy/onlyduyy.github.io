@@ -1,3 +1,9 @@
+---
+title: Đi du lịch bằng xe buýt
+description: "Đi đi đi"
+date: 2024-09-09
+---
+
 Mình sẽ lấy xuất phát từ ĐH GTVT – điểm trung chuyển Cầu Giấy nhé:
 
 - Đi Làng Gốm Bát Tràng (H. Gia Lâm): bạn đi xe 34 hoặc E05 tới Long Biên/Ô Quan Chưởng rồi bắt xe 47A.
