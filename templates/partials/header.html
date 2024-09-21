@@ -9,9 +9,9 @@
       {% if config.extra.menu %} {% for menu in config.extra.menu %}
       <li><a href="{{ get_url(path=menu.url) | safe }}">{{ menu.name }}</a></li>
       {% endfor %} {% else %}
-      <li><a href="{{ config.base_url | safe }}">Posts</a></li>
-      <li><a href="{{ get_url(path='tags') | safe }}">Tags</a></li>
-      <li><a href="{{ get_url(path='about') | safe }}">About</a></li>
+      <li><a href="{{ config.base_url | safe }}">Bài đăng</a></li>
+      <li><a href="{{ get_url(path='tags') | safe }}">Các mục</a></li>
+      <li><a href="{{ get_url(path='about') | safe }}">Xàm về mình</a></li>
       {% endif %}
     </ul>
   </section>
