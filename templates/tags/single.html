@@ -1,13 +1,12 @@
-{% extends "index.html" %}
+{% extends "base.html" %} {% block content %}
+<section class="tags">
+  <section class="tags-header">
+    <h2 class="tags-header-title">#{{ term.name }}</h2>
+    <section class="tags-header-line"></section>
+  </section>
+</section>
 
-{% block content %}
-  <div>
-    <h2>{{ term.name }}</h2>
-    {% for year, posts in term.pages | group_by(attribute="year") %}
-      <h3>{{ year }}</h3>
-      {% for page in term.pages %}
-        <p><a href="{{ page.permalink | safe }}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format=config.extra.timeformat | default(value="%B %e, %Y")) }}</time></p>
-      {% endfor %}
-    {% endfor %}
-  </div>
+<section class="catalogue">
+  {% for page in term.pages -%} {{ macros::page(page=page) }} {%- endfor %}
+</section>
 {% endblock content %}

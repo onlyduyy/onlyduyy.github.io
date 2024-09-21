@@ -1,5 +1,4 @@
-+++
-paginate_by = 10
-sort_by = "date"
-insert_anchor_links = "right"
-+++
+---
+sort_by: date
+paginate_by: 4
+---
