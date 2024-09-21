@@ -1,6 +1,6 @@
 ---
-title: ĐHọc được những gì từ cuốn Ultralearning
-description: "Chiến"
+title: Mình đã học được những gì từ cuốn Ultralearning
+description: "Học sao cho chiến nhất có thể!"
 date: 2024-09-09
 ---
 
