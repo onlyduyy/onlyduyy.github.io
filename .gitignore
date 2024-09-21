@@ -1,2 +1,8 @@
 public
 .github/
+.gitattributes
+*.toml
+*.json
+sass/
+static/
+templates/
